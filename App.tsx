@@ -14,7 +14,7 @@ const App = () => {
     <View style={styles.app}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       {/* <ProfileSwiper /> */}
-      <Login />
+      {/* <Login /> */}
     </View>
   );
 };

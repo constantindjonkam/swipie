@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 import appStyles from '../config/appStyles';
-import colors, {ColorsProps} from '../config/colors';
+import colors from '../config/colors';
 
 export interface ButtonProps {
   title: string;

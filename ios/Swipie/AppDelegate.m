@@ -4,6 +4,12 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+// code push
+#import <AppCenterReactNative.h>
+#import <AppCenterReactNativeAnalytics.h>
+#import <AppCenterReactNativeCrashes.h>
+// end
+
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
 #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
@@ -32,6 +38,12 @@ static void InitializeFlipper(UIApplication *application) {
   if ([FIRApp defaultApp] == nil) { // firebase
     [FIRApp configure];
   }
+
+  // code push
+  [AppCenterReactNative register];
+  [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
+  [AppCenterReactNativeCrashes registerWithAutomaticProcessing];
+  //end
 
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);

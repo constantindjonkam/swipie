@@ -14,6 +14,7 @@
 		20DCEA4BF465A47301363290 /* libPods-Swipie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E28A2A00B68B5E5CFC1C59 /* libPods-Swipie.a */; };
 		495C5759F3562BC64F04445F /* libPods-Swipie-SwipieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C709AEF24662A1979A38BC /* libPods-Swipie-SwipieTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BDB71EC626B36ACD002978B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB71EC526B36ACD002978B6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BD899BB326B0913800A7E22E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
 		BD899BB426B0913800A7E22E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
 		BD899BB526B0913800A7E22E /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		BDB71EC526B36ACD002978B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DF2588310C87BD40043BA438 /* Pods-Swipie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipie.debug.xcconfig"; path = "Target Support Files/Pods-Swipie/Pods-Swipie.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F101F5626F3C943AE920C895 /* Pods-Swipie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipie.release.xcconfig"; path = "Target Support Files/Pods-Swipie/Pods-Swipie.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BDB71EC526B36ACD002978B6 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* Swipie */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SwipieTests */,
@@ -284,6 +287,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BDB71EC626B36ACD002978B6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

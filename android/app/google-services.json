@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "676637413467",
+    "project_id": "swipie-f48da",
+    "storage_bucket": "swipie-f48da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676637413467:android:c4454ea259108acecaef7e",
+        "android_client_info": {
+          "package_name": "com.gostar.swipie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676637413467-n4mkd7g3b1nqruk3ed3lk1rjmh1uhg23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMZkk5cuelWG0A9auddVByaZqdl5B-CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676637413467-n4mkd7g3b1nqruk3ed3lk1rjmh1uhg23.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676637413467-7jdrp41pqp3ma8n8tc3olcn3od16dm3q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gostar.swipie"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676637413467:android:a5b890d7df44b670caef7e",
+        "android_client_info": {
+          "package_name": "com.swipie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676637413467-n4mkd7g3b1nqruk3ed3lk1rjmh1uhg23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMZkk5cuelWG0A9auddVByaZqdl5B-CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676637413467-n4mkd7g3b1nqruk3ed3lk1rjmh1uhg23.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676637413467-7jdrp41pqp3ma8n8tc3olcn3od16dm3q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gostar.swipie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

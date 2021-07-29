@@ -1,7 +1,6 @@
 import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
-import appStyles from '../config/appStyles';
 import colors from '../config/colors';
 
 export interface ButtonProps {
@@ -38,10 +37,12 @@ export default Button;
 
 const styles = StyleSheet.create({
   button: {
-    flex: 1,
-    alignItems: 'center',
+    backgroundColor: colors.blue,
     justifyContent: 'center',
-    backgroundColor: colors.white,
+    alignItems: 'center',
+    borderRadius: 25,
+    padding: 15,
+    marginVertical: 10,
   },
   text: {
     color: colors.white,

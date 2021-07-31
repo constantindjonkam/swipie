@@ -17,6 +17,9 @@
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>
 	</array>
+	<!-- code push -->
+	<key>CodePushDeploymentKey</key>
+	<string>HzlCL4O7akDQT5po4TRZRjUQmYsQqjgL7d0J8</string>
 	<key>CFBundleDisplayName</key>
 	<string>Swipie</string>
 	<key>CFBundleExecutable</key>

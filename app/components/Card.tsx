@@ -1,6 +1,7 @@
 import React from 'react';
-import {View, Image, StyleSheet, Text, Dimensions} from 'react-native';
+import {View, StyleSheet, Text, Dimensions} from 'react-native';
 import colors from '../config/colors';
+import FastImage from 'react-native-fast-image';
 
 export interface CardType {
   image: string;
@@ -18,7 +19,7 @@ const windowHeight = Dimensions.get('window').height;
 const Card: React.FC<CardProps> = ({card}) => {
   return (
     <View style={styles.card}>
-      <Image
+      <FastImage
         source={{
           uri: card.image,
         }}

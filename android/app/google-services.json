@@ -50,6 +50,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "676637413467-pa3gboe8e84qniv3t12jca9mag479r69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swipie",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
           "client_id": "676637413467-n4mkd7g3b1nqruk3ed3lk1rjmh1uhg23.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Swipie</string>
+    <!-- appcenter -->
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+
+    <!-- code push -->
+    <string moduleConfig="true" name="CodePushDeploymentKey">vjbcAj6x5S6PPU4sl18_P6Hq2E5WLMICVIHvQ</string>
 </resources>

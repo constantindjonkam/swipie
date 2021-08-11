@@ -4,7 +4,7 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-// code push
+// appcenter
 #import <AppCenterReactNative.h>
 #import <AppCenterReactNativeAnalytics.h>
 #import <AppCenterReactNativeCrashes.h>
@@ -19,6 +19,7 @@
 #import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
 #import "RNSplashScreen.h" // control splash
 #import <Firebase.h> // firebase
+#import <CodePush/CodePush.h> // code push
 
 static void InitializeFlipper(UIApplication *application) {
   FlipperClient *client = [FlipperClient sharedClient];
@@ -39,7 +40,7 @@ static void InitializeFlipper(UIApplication *application) {
     [FIRApp configure];
   }
 
-  // code push
+  // app center
   [AppCenterReactNative register];
   [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
   [AppCenterReactNativeCrashes registerWithAutomaticProcessing];
@@ -74,7 +75,7 @@ static void InitializeFlipper(UIApplication *application) {
 #if DEBUG
   return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
 #else
-  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+  return [CodePush bundleURL]; // code push
 #endif
 }
 
